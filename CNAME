@@ -1,0 +1,5 @@
+git checkout gh-pages
+echo SUBDOMAIN > CNAME
+git add CNAME
+git commit -m “Enable custom domain (subdomain)”
+git push
