@@ -35,9 +35,12 @@ b1 {
   border-bottom: 30px;
   background-color: lightcyan;
   opacity: 80%;
-  
-  border-radius: 500px;
+  position: center;
   text-align: center;
+  border-radius: 500px;
+  width: 1000px;
+  top: 50px;
+  margin: auto;
 }
 
 .textbox2 {
@@ -48,20 +51,32 @@ b1 {
 }
 
 
-body {
-  background-image: url('rainywindowUHD.gif');
-  background-color: #cccccc;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  top:0px;
-  left:0px;
-  width: 98%;
-  height: 100%;
+#rainbackground {
+  position:fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 
 ::-webkit-scrollbar {
   width: 0px;
+  height: 0px;
+}
+
+.content {
+  position: relative;
+}
+
+
+#pausebutton {
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  left: 48.3%;
+  top: 70px;
+}
+#myBtn:hover {
+  cursor: pointer;
 }
