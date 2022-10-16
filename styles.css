@@ -65,14 +65,18 @@ m1 {
 
 #rainbackground {
   position:fixed;
-  transform: scale(1.03);
-  background-size:100% 100%;
+  transform: scale(1.15);
+  background-size:cover;
   background-position: center;
-  position;
+  background-attachment: fixed;
+  background: black;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100%;
+  min-width: fit-content;
+  min-height: fit-content;
+  overflow: hidden;
 }
 
 
