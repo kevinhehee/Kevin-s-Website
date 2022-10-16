@@ -22,8 +22,6 @@
 
 <div class="content" id = "pausebutton">
   <button id = "myBtn" onclick="myFunction()"> <img src = "icons/pause.png" style = "width: 40px; height: 40px"></button>
-
-
 </div>
 
 <script>
@@ -96,17 +94,21 @@
 </div>
 
 
+<div id="container">
+  <div class = "rect" style = "position: fixed; right:5px; top: 25px; border-radius: 25px;" ></div>
+</div>
+
 
 <div class="musictextbox">
-  <m1 style = "position: fixed; right:0px;top:20px; background-color: rgb(150, 150, 150); opacity: 95%; border-radius: 25px; border-style:ridge; border-width:2px; padding: 3px; transform: scale(.8);"> <a href="https://www.youtube.com/watch?v=I_hrQd_CY40" target="blank" rel="noopener noreferrer">Current Favorite Song</a></m1>
+  <m1 style = "position: fixed; right:7px; top:30px"><a href="https://www.youtube.com/watch?v=I_hrQd_CY40" target="blank" rel="noopener noreferrer">Current Favorite Song</a></m1>
 </div>
 
 
 <div id = "pausebutton2">
-  <button id = "myBtn2" onclick = "songplay()"><img src = "icons/play.png" style = "outline: none; position:fixed; top:30px; right:292px; width: 40px; height: 40px"></button>
+  <button id = "myBtn2" onclick = "songplay()"><img src = "icons/play.png" style = "outline: none; position:fixed; top:30.5px; right:258px; width: 40px; height: 40px"></button>
 </div>
 
-<audio id = "musicplayer" style = "position:fixed; top:27px; right:500px;">
+<audio id = "musicplayer">
     <source src = "favsong/Childish Gambino - Telegraph Ave.mp3" type = "audio/mpeg;">
 </audio>
 
@@ -120,9 +122,8 @@
     if (music.paused)
     {
       music.play();
-      btn2.innerHTML = "<img src = \"icons/pause.png\" width = \"40px\" height= \"40px\">";
+      btn2.innerHTML = "<img src = \"icons/pause.png\" width = \"40px\" height= \"40px\" position = \"fixed\" right = \"500px\" >";
     }
-    
     else
     {
       music.pause();
@@ -130,14 +131,6 @@
     }
   }
 </script>
-
-
-
-
-
-
-
-
 
 
 
