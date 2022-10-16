@@ -154,7 +154,21 @@ m1 {
   right:300px; 
   width: 40px; 
   height: 40px;
+  outline: none;
 }
+
+.myBtn2 {
+  border-radius: 20px;
+  cursor: pointer;
+  outline-color: transparent;
+  background-color: transparent;
+  position:fixed;
+  top:27px; 
+  right:300px; 
+  width: 40px; 
+  height: 40px;
+}
+
 
 #musicplayer {
   background-color: black;
