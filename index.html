@@ -44,6 +44,13 @@
       btn.innerHTML = "<img src=\"icons/play.png\" width=\"40px\" height=\"40x\">";
     }
   }
+
+
+
+
+
+
+
 </script>
 
 <div class="myButton" style="position:relative; left:25px; top:30px; background-color:pink;">
@@ -77,17 +84,62 @@
 
 </div>
 
+
+
+
+
+
+
+
 <div class="textbox">
     <h1>Kevin He</Head></h1>
 </div>
 
-<div class="musicplayer" style = "position:fixed; top:75px; right:40px;">
-  <m1 style = "position: fixed; right:25px;top:20px; background-color: rgb(150, 150, 150); opacity: 95%; border-radius: 25px; border-style:ridge; border-width:2px; padding: 3px; transform: scale(.8);"> <a href="https://www.youtube.com/watch?v=I_hrQd_CY40" target="blank" rel="noopener noreferrer">Current Favorite Song</a></m1>
-  <audio controls>
-    <source src = "favsong/Childish Gambino - Telegraph Ave.mp3" type = "audio/mpeg" style = "top: 900px; transform: scale(.8);">
-  
-  </audio>
+
+
+<div class="musictextbox">
+  <m1 style = "position: fixed; right:0px;top:20px; background-color: rgb(150, 150, 150); opacity: 95%; border-radius: 25px; border-style:ridge; border-width:2px; padding: 3px; transform: scale(.8);"> <a href="https://www.youtube.com/watch?v=I_hrQd_CY40" target="blank" rel="noopener noreferrer">Current Favorite Song</a></m1>
 </div>
+
+
+<div class = "myBtn2" id = "pausebutton2">
+  <button id = "myBtn2" onclick = "songplay()"><img src = "icons/pause.png" style = "position:fixed;top:27px; right:300px; width: 40px; height: 40px"></button>
+</div>
+
+<audio id = "musicplayer" style = "position: fixed; top:27px; right:500px;">
+    <source src = "favsong/Childish Gambino - Telegraph Ave.mp3" type = "audio/mpeg;">
+</audio>
+
+
+<script>
+  var btn2 = document.getElementById("myBtn2");
+  var music = document.getElementById("musicplayer");
+
+  function songplay()
+  {
+    if (music.paused)
+    {
+      music.play();
+      btn2.innerHTML = "<img src = \"icons/pause.png\" position = \"absolute\" top = \"27px\" right = \"350px\" width = \"40px\" height= \"40px\">";
+    }
+    else
+    {
+      music.pause();
+      btn2.innerHTML = "<img src = \"icons/play.png\" position = \"fixed\" top = \"27px\" right = \"350px\" width = \"40px\" height= \"40px\">";
+    }
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -102,7 +154,7 @@
 
 <br> <br>
 
-<b1 class = textbox2 > I created this website to learn HTML, CSS, and Javascript, and to explore more what I want to do in the computer science field.</b1>
+<b1 class = "textbox2" > I created this website to learn HTML, CSS, and Javascript, and to explore more what I want to do in the computer science field.</b1>
 
 
 
