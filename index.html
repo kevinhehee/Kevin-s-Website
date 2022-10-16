@@ -16,15 +16,9 @@
 
 <video autoplay muted loop id ="rainbackground">
 
-  <source src = "rainywindowUHD.mp4" type = "video/mp4">
+  <source src = "rainywindowUHD.mp4" type = "video/mp4" style = "z-index:0"/>
 
 </video>
-
-<div class="content" id = "pausebutton">
-  <button id = "myBtn" onclick="myFunction()"> <img src = "icons/pause.png" style = "width: 40px; height: 40px"></button>
-
-
-</div>
 
 <div class="content" id = "pausebutton">
   <button id = "myBtn" onclick="myFunction()"> <img src = "icons/pause.png" style = "width: 40px; height: 40px"></button>
@@ -87,8 +81,8 @@
     <h1>Kevin He</Head></h1>
 </div>
 
-<div class="musicplayer" style = "position:fixed; top:75px; left:1215px;">
-  <m1 style = "position: fixed; left:1205px;top:20px; background-color: rgb(150, 150, 150); opacity: 95%; border-radius: 25px; border-style:ridge; border-width:2px; padding: 3px; transform: scale(.8);">Current Favorite Song</m1>
+<div class="musicplayer" style = "position:fixed; top:75px; right:40px;">
+  <m1 style = "position: fixed; right:25px;top:20px; background-color: rgb(150, 150, 150); opacity: 95%; border-radius: 25px; border-style:ridge; border-width:2px; padding: 3px; transform: scale(.8);"> <a href="https://www.youtube.com/watch?v=I_hrQd_CY40" target="blank" rel="noopener noreferrer">Current Favorite Song</a></m1>
   <audio controls>
     <source src = "favsong/Childish Gambino - Telegraph Ave.mp3" type = "audio/mpeg" style = "top: 900px; transform: scale(.8);">
   
