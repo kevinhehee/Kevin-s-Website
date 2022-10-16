@@ -27,15 +27,33 @@ b1 {
     font-size: 150%;
 }
 
+bg1 {
+
+
+}
 m1 {
   color:black;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position:fixed;
   
-  font-size: 200%;
+  font-size: 150%;
 
 
 }
+
+#container{
+  float: left;
+  position: relative;
+}
+
+.rect{
+  float:left;
+  height:50px;
+  width:240px;
+  position: relative;
+  background-color: rgba(150, 150, 150, 0.582);
+}
+
 
 .textbox {
   border: 5px outset black;
@@ -110,8 +128,6 @@ m1 {
   position: fixed;
   border-radius: 50px;
   outline-color: transparent;
-  right:300px;
-  top:27px;
   
 }
 
@@ -134,13 +150,8 @@ m1 {
 #myBtn2:hover {
   border-radius: 250px;
   cursor: pointer;
-  outline-color: transparent;
-  background-color: transparent;
-  position:fixed;
-  top:27px; 
-  right:300px; 
-  width: 40px; 
-  height: 40px;
+  outline:none;
+
 
 }
 
@@ -151,10 +162,10 @@ m1 {
   background-color: transparent;
   position:fixed;
   top:27px; 
-  right:300px; 
-  width: 40px; 
-  height: 40px;
-  outline: none;
+  right:250px; 
+  width: 56px; 
+  height: 50px;
+  opacity: 75%;
 }
 
 .myBtn2 {
@@ -164,9 +175,10 @@ m1 {
   background-color: transparent;
   position:fixed;
   top:27px; 
-  right:300px; 
-  width: 40px; 
-  height: 40px;
+  right:250px; 
+  width: 56px; 
+  height: 50px;
+  opacity: 75%;
 }
 
 
