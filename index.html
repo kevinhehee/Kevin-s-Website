@@ -102,11 +102,11 @@
 </div>
 
 
-<div class = "myBtn2" id = "pausebutton2">
-  <button id = "myBtn2" onclick = "songplay()"><img src = "icons/pause.png" style = "position:fixed;top:27px; right:300px; width: 40px; height: 40px"></button>
+<div id = "pausebutton2">
+  <button id = "myBtn2" onclick = "songplay()"><img src = "icons/play.png" style = "outline: none; position:fixed; top:30px; right:292px; width: 40px; height: 40px"></button>
 </div>
 
-<audio id = "musicplayer" style = "position: fixed; top:27px; right:500px;">
+<audio id = "musicplayer" style = "position:fixed; top:27px; right:500px;">
     <source src = "favsong/Childish Gambino - Telegraph Ave.mp3" type = "audio/mpeg;">
 </audio>
 
@@ -120,12 +120,13 @@
     if (music.paused)
     {
       music.play();
-      btn2.innerHTML = "<img src = \"icons/pause.png\" position = \"absolute\" top = \"27px\" right = \"350px\" width = \"40px\" height= \"40px\">";
+      btn2.innerHTML = "<img src = \"icons/pause.png\" width = \"40px\" height= \"40px\">";
     }
+    
     else
     {
       music.pause();
-      btn2.innerHTML = "<img src = \"icons/play.png\" position = \"fixed\" top = \"27px\" right = \"350px\" width = \"40px\" height= \"40px\">";
+      btn2.innerHTML = "<img src = \"icons/play.png\" width = \"40px\" height= \"40px\">";
     }
   }
 </script>
