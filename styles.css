@@ -87,11 +87,7 @@ m1 {
   border-radius: 100px;
 }
 
-#visualizer {
-  position:fixed;
-  right: 253px;
-  top: 24px;
-}
+
 
 #rainbackground {
   position:fixed;
