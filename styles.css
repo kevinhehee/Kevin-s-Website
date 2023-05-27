@@ -1,9 +1,22 @@
 
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 
+
+}
 
 
 .myButton {
-  color: rgb(255, 255, 255); opacity: 60%; font-size: 20px; line-height: 13px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background: linear-gradient(to right, #F78AFF 0%, #ff8ed2 100%); box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+  color: rgb(255, 255, 255); opacity: 60%; font-size: 20px; 
+  line-height: 13px; padding: 6px; border-radius: 10px; 
+  font-family: Georgia, serif; font-weight: normal; text-decoration: none; 
+  font-style: normal; font-variant: normal; text-transform: none; 
+  background: linear-gradient(to right, #F78AFF 0%, #ff8ed2 100%); 
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; border: 2px solid rgb(28, 110, 164); 
+  display: inline-block;}
+
   .myButton:hover {
   background: lightcoral; }
   .myButton:active {
@@ -19,18 +32,33 @@ h1 {
     color:black;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 900%;
+    text-indent: 0%;
+}
+
+h3 {
+  font: 100px , sans-serif;
 }
 
 b1 {
     color:black;
     font-family:'';
-    font-size: 150%;
+    font-size: 30px;
 }
 
-bg1 {
-
-
+b3 {
+    color:black;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+    position: relative;
+    top: -90px;
+    text-align: center;
+    text-indent: 0px;
+    margin: auto;
+    line-height: 10px;
 }
+
+
+
 m1 {
   color:black;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -39,6 +67,23 @@ m1 {
   font-size: 150%;
 
 
+}
+
+#about{
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
+#bottompage
+{
+  left: -10px;
+  width: 3000px;
+  height: 2000px;
+  top: 1000px;
+  position: fixed;
+  background-color: red;
+  color: rgb(255, 0, 0);
+  opacity: 100%;
 }
 
 #container{
@@ -56,6 +101,77 @@ m1 {
 
 }
 
+#navbar
+{
+  font: 18px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: -25px;
+  top: 0;
+}
+
+nav ul {
+  min-height: 48px;
+  width: auto;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline;
+}
+
+nav ul li a {
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	 text-decoration: none;
+   text-align: left;
+   color: #fff;
+}
+
+.sectionbox {
+  background-color: rgb(255, 255, 255);
+
+  border-top: 30px;
+  opacity: 90%;
+  position: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  top: 75px;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+
+    
+}
+
+#aboutme {
+  height: 500px;
+  font-size: 100px;
+  background-color: #D0E4F5;
+  opacity: 90%;
+  padding: 10px;
+
+  width: 900px;
+  outline:auto;
+  position:relative;
+  margin:auto;
+  margin-top: 50px;
+}
+
+.sectionbox:hover {
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+}
 
 .textbox {
   border: 5px outset black;
@@ -80,13 +196,44 @@ m1 {
   padding: .5px;
 }
 
+.projectbox {
+  background-color: #D0E4F5;
+  opacity: 90%;
+  padding: 10px;
+  border-top: 500px;
+  border-width: 100px;
+  width: 900px;
+  outline:auto;
+  position:sticky;
+  margin: auto;
+  
+}
+
 .musictextbox {
   background-color: black;
-  border-radius: 5px;
   opacity: 100%;
   border-radius: 100px;
 }
 
+.bottom {
+  border: 5px outset black;
+  border-top: 100px;
+  border-right: 30px;
+  border-left: 3000px;
+  border-bottom: 30px;
+  background-color: rgb(187, 215, 255);
+  opacity: 90%;
+  position: center;
+  text-align: center;
+  font-size: 100px;
+  border-radius: 50px;
+  width: 1200px;
+  top: 50px;
+  margin: auto;
+  scroll-behavior: smooth;
+  scroll-margin-top: 60px;
+  
+}
 
 
 #rainbackground {
@@ -164,25 +311,13 @@ m1 {
   outline-color: transparent;
   background-color: transparent;
   position:fixed;
-  top:27px; 
-  right:250px; 
+
   width: 56px; 
   height: 50px;
   opacity: 90%;
 }
 
-.myBtn2 {
-  border-radius: 20px;
-  cursor: pointer;
-  outline-color: transparent;
-  background-color: transparent;
-  position:fixed;
-  top:27px; 
-  right:250px; 
-  width: 56px; 
-  height: 50px;
-  opacity: 75%;
-}
+
 
 
 #musicplayer {

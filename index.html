@@ -3,47 +3,28 @@
 <head>
 
   <link rel="stylesheet" href = "styles.css">
+  <link rel="Javascript" href = "script.js">
   <meta name="viewport" content="width=device-width">
 </head>
 
 
 <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
 
+<style>
+  body {
+    background-image: url("fuji.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+</style>
 
 
-
-<video autoplay muted loop id ="rainbackground">
+<!-- <video autoplay muted loop id ="rainbackground">
 
   <source src = "rainywindowUHD.mp4" type = "video/mp4" style = "z-index:0"/>
 
-</video>
-
-<div class="content" id = "pausebutton">
-  <button id = "myBtn" onclick="myFunction()"> <img src = "icons/pause.png" style = "width: 40px; height: 40px"></button>
-</div>
-
-
-
-
-<script>
-  var video = document.getElementById("rainbackground");
-
-  var btn = document.getElementById("myBtn");
-
-  function myFunction()
-  {
-    if (video.paused)
-    {
-      video.play();
-      btn.innerHTML = "<img src = \"icons/pause.png\" width = \"40px\" height= \"40px\">";
-    }
-    else 
-    {
-      video.pause();
-      btn.innerHTML = "<img src=\"icons/play.png\" width=\"40px\" height=\"40x\">";
-    }
-  }
-</script>
+</video> -->
 
 
 
@@ -56,98 +37,59 @@
 
 
 
-<div class="myButton" style="position:relative; left:25px; top:30px; background-color:pink;">
-  <img src = "icons/spotify64.png" style = "width: 16px; height: 16px;">
-  <b2><a href = "https://open.spotify.com/user/qweasd602" target="blank" rel="noopener noreferrer">Spotify</a></b2>
-</div>
-
-<div class="myButton" style = "position:relative; left:30px; top:30px; background-color:pink; text-decoration: none;">
-  <img src = "icons/linkedin64.png" style = "width: 16px; height: 16px;">
-  <b2><a href = "https://www.linkedin.com/in/kevin-he-055804251/" target="blank" rel="noopener noreferrer">Linkedin</a></b2>  
-</div>
-
-<div class="myButton" style = "position:relative; left:35px; top:30px; background-color:pink;">
-  <img src = "icons/mylogo64.png" style = "width: 16px; height: 16px;">
-  <b2><a href = "index.html" target="blank" rel="noopener noreferrer">Website</a></b2>  
-</div>
-
-<div class="myButton" style = "position:relative; left:40px; top:30px; background-color:pink;">
-  <img src = "icons/github64.png" style = "width: 16px; height: 16px;">
-  <b2><a href = "https://github.com/qweasd602" target="blank" rel="noopener noreferrer">Github</a></b2>  
-</div>
-
-<div class="myButton" style = "position:relative; left:45px; top:30px; background-color:pink;">
-  <img src = "icons/instagram64.png" style = "width: 16px; height: 16px;">
-  <b2><a href = "https://www.instagram.com/kevinheehee/" target="blank" rel="noopener noreferrer">Instagram</a></b2>  
-</div>
-
-<div class="myButton" style= "position:relative; left:50px; top:30px; background-color:pink;">
-  <img src = "icons/youtube64.png" style = "width: 16px; height: 16px;">
-  <b2><a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank" rel="noopener noreferrer">filler</a></b2>
-
-</div>
-
-
-
-
-
+<br><br>
 
 
 
 <div class="textbox">
-    <h1>Kevin He</Head></h1>
+    <h1>Kevin He</h1>
+    
+</div>
+  
+<div
+      style = "position: relative; text-align: center; margin: auto; top: -100px; left: -40px;">
+
+      <div class="myButton" style="position:relative; left:25px; top:30px; background-color:pink;">
+        <img src = "icons/spotify64.png" style = "width: 16px; height: 16px;">
+        <b2><a href = "https://open.spotify.com/user/qweasd602" target="blank" rel="noopener noreferrer">Spotify</a></b2>
+      </div>
+
+      <div class="myButton" style = "position:relative; left:30px; top:30px; background-color:pink; text-decoration: none;">
+        <img src = "icons/linkedin64.png" style = "width: 16px; height: 16px;">
+        <b2><a href = "https://www.linkedin.com/in/kevin-he-055804251/" target="blank" rel="noopener noreferrer">Linkedin</a></b2>  
+      </div>
+
+      <div class="myButton" style = "position:relative; left:35px; top:30px; background-color:pink;">
+        <img src = "icons/mylogo64.png" style = "width: 16px; height: 16px;">
+        <b2><a href = "https://kevinhe.xyz" target="blank" rel="noopener noreferrer">Website</a></b2>  
+      </div>
+
+      <div class="myButton" style = "position:relative; left:40px; top:30px; background-color:pink;">
+        <img src = "icons/github64.png" style = "width: 16px; height: 16px;">
+        <b2><a href = "https://github.com/qweasd602" target="blank" rel="noopener noreferrer">Github</a></b2>  
+      </div>
+
+      <div class="myButton" style = "position:relative; left:45px; top:30px; background-color:pink;">
+        <img src = "icons/instagram64.png" style = "width: 16px; height: 16px;">
+        <b2><a href = "https://www.instagram.com/kevinheehee/" target="blank" rel="noopener noreferrer">Instagram</a></b2>  
+      </div>
+
+      <div class="myButton" style= "position:relative; left:50px; top:30px; background-color:pink;">
+        <img src = "icons/suitcase.png" style = "width: 16px; height: 16px;">
+        <b2><a href = "https://drive.google.com/file/d/1AtQhspmVB-lcdcekW0bIZUOoxnldeI3n/view?usp=share_link" target="blank" rel="noopener noreferrer">Resume</a></b2>
+      </div>
+      
 </div>
 
-
-<div id="container">
-  <div class = "rect" style = "position: fixed; right:5px; top: 25px; border-radius: 25px;" ></div>
-</div>
-
-
-<div class="musictextbox" style = "color: white">
-  <m1 style = "position: fixed; right:7px; top:30px; color: rgb(110, 77, 255);"><a href="https://www.youtube.com/watch?v=w6NxHj3L_XY" target="blank" rel="noopener noreferrer">Current Favorite Song</a></m1>
-</div>
-
-
-<div id = "pausebutton2">
-  <button id = "myBtn2" onclick = "songplay()"><img src = "icons/play.png" style = "outline: none; position:fixed; top:30.5px; right:258px; width: 40px; height: 40px"></button>
-</div>
-
-<audio id = "musicplayer" >
-    <source src = "favsong/Kendrick Lamar LOVE FEAT. LACARI.mp3" type = "audio/mpeg;">
-</audio>
+<br>
 
 
 
 
 
-<script>
-  var btn2 = document.getElementById("myBtn2");
-  var music = document.getElementById("musicplayer");
+<br><br><br><br><br><br><br><br><br><br><br>
 
-  function songplay()
-  {
-    if (music.paused)
-    {
-      music.play();
-      btn2.innerHTML = "<img src = \"icons/pause.png\" width = \"40px\" height= \"40px\" position = \"fixed\" right = \"500px\" >";
-    }
-    else
-    {
-      music.pause();
-      btn2.innerHTML = "<img src = \"icons/play.png\" width = \"40px\" height= \"40px\">";
-    }
-  }
-</script>
-
-
-
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-<b1 class = "textbox2">Hi, my name is Kevin He.</b1> 
+<b1 class = "textbox2">Hi, my name is Kevin He. </b1> 
 
 <br>
 
@@ -158,12 +100,105 @@
 
 <b1 class = "textbox2" > I created this website to learn HTML, CSS, and Javascript, and to explore more what I want to do in the computer science field.</b1>
 
+<br><br><br><br>
+
+
+<!-- <div id = "bottompage"> -->
+  <div class = "bottom">
+      <h3> About me</h3>
+      <h1 id = "aboutme">
+
+
+      </h1>
+
+      <h1 id = "projectslink"  style = "height: 1000px; font-size: 100px;"> Projects
+        <br>
+        
+        <div class = "projectbox">
+
+          
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/5o80FqKJrZg" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <br>
+
+            <iframe width = "800px" height = "625px" style = "height: 100%:"
+            src = "Alphaletter.html"
+              >
+            </iframe>
+
+            <p style = "font-size: 20px; top: -40px; position: relative;"> This is Alphaletter, a word-game inspired by "Tapple" and my first 
+              video game I've created.  I developed this game using C and the raylib graphics library.  
+            </p>
+
+        </div>
+
+        <div class = "projectbox">
+
+          hello
+        </div>
+      </h1>
+  </div>
+<!-- </div> -->
+
+
+
+<div id="navbar" style = "position: fixed">
+  
+  
+  <div>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    <!-- <p1> 
+    
+      <a class = "sectionbox" href = #projectslink style = "position: relative; top: 10px; text-decoration: none;"> Projects</a>
+          
+      <a class = "sectionbox" href = #projectslink style = "position: relative; top: 10px; text-decoration: none;"> Projects</a>
+      
+      <a class = "sectionbox" href = #projectslink style = "position: relative; top: 10px; text-decoration: none;"> Projects</a>
+    
+    </p1> -->
+
+  </div>
+<!-- 
+  <div class = "rect" style = "position: fixed; right:5px; top: 5px; border-radius: 25px;" >
+
+    <div id = "pausebutton2" style = "position: relative; left: 50px">
+      <button id = "myBtn2" style = "right: 250px;" onclick = "MusicPlay()"><img src = "icons/play.png" style = "outline: none; width: 40px; height: 40px"></button>
+    </div>
+    
+    <audio id = "musicplayer" >
+        <source src = "favsong/Kendrick Lamar LOVE FEAT. LACARI.mp3" type = "audio/mpeg;">
+    </audio>
+  
+    <div class="musictextbox" style = "position: relative; left: 2px;top:5px; color: rgb(110, 77, 255);">
+    <m1> <a href="https://www.youtube.com/watch?v=w6NxHj3L_XY" target="blank" rel="noopener noreferrer">Current Favorite Song</a></m1>
+    </div>
+  
+  
+  </div> -->
+</div>
 
 
 
 
+
+
+<script src="script.js"></script>
 
 
 
 
 </html>
+
