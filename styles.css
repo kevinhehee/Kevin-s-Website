@@ -35,20 +35,27 @@ html {
   }
 .everything {
   background: #D0E4F5 none no-repeat scroll 50% 50%;
-
-
 }
 
 h1 {
     color:black;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Montserrat";
     font-size: 900%;
     text-indent: 0%;
 }
 
+h2 {
+   font-size: 30px;
+   font-family: "Montserrat";
+   color: "lightblue";
+}
+
 h3 {
+  text-align: center;
   font-size: 100px;
   font-family: 'Oswald';
+  color: white;
+  margin: auto;
 }
 
 p1 {
@@ -78,40 +85,61 @@ b3 {
     line-height: 10px;
 }
 
-
-
 m1 {
   color:black;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   position:fixed;
   
   font-size: 150%;
-
-
 }
-
-
 
 #about{
   padding-top: 12px;
   padding-bottom: 15px;
 }
 
-#bottompage
-{
-  left: -10px;
-  width: 3000px;
-  height: 2000px;
-  top: 1000px;
-  position: fixed;
-  background-color: red;
-  color: rgb(255, 0, 0);
-  opacity: 100%;
+.WebContainer{
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position:sticky;
+
+
+  justify-content: center; /* horizontally centers the content */
+  align-items: center; /* vertically centers the content */
+  background-image: url("assets/images/fuji.jpg");
+  background-size: cover;
 }
 
-#container{
-  float: left;
-  position: relative;
+.BottomAboutContainer {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(25, 25, 25);
+  
+
+}
+
+.BottomProjectsContainer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #dadada;
+  
+
+}
+
+.BottomContactContainer {
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(25, 25, 25);
+  
+
+}
+
+.BottomEndContainer {
+  width: 100%;
+  min-height: 100%;
+
 }
 
 .rect{
@@ -130,7 +158,7 @@ m1 {
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  margin: 0 auto;
+  margin: auto;
   z-index: 100;
   position: fixed;
   left: -25px;
@@ -179,17 +207,27 @@ nav ul li a {
 #aboutme {
   height: 375px;
   font-size: 100px;
-  background-color: #D0E4F5;
   opacity: 90%;
-  padding: 10px;
-
   width: 900px;
-  outline:auto;
   position:relative;
   margin:auto;
-  margin-top: -100px;
-  scroll-margin: 255px;
+  scroll-margin: 70px;
 }
+
+
+.projectbox {
+  background-color: #dadada;
+  opacity: 90%;
+  padding: 10px;
+  border-top: 500px;
+  border-width: 100px;
+  width: 900px;
+
+  position:sticky;
+  margin: auto;
+  
+}
+
 
 .sectionbox:hover {
   cursor: pointer;
@@ -220,61 +258,12 @@ nav ul li a {
   padding: .5px;
 }
 
-.projectbox {
-  background-color: #D0E4F5;
-  opacity: 90%;
-  padding: 10px;
-  border-top: 500px;
-  border-width: 100px;
-  width: 900px;
-  outline:auto;
-  position:sticky;
-  margin: auto;
-  
-}
+
 
 .musictextbox {
   background-color: black;
   opacity: 100%;
   border-radius: 100px;
-}
-
-.bottom {
-  border: 5px outset black;
-  border-top: 100px;
-  border-right: 30px;
-  border-left: 3000px;
-  border-bottom: 30px;
-  background-color: rgb(187, 215, 255);
-  opacity: 90%;
-  position: center;
-  text-align: center;
-  font-size: 100px;
-  border-radius: 50px;
-  width: 1200px;
-  top: 50px;
-  margin: auto;
-  margin-top: -300px;
-  scroll-behavior: smooth;
-  scroll-margin-top: 60px;
-  
-}
-
-
-#rainbackground {
-  position:fixed;
-  transform: scale(1.15);
-  background-size:cover;
-  background-position: center;
-  background-attachment: fixed;
-  background: black;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  min-width: 100%;
-  min-height: fit-content;
-  overflow: hidden;
 }
 
 
@@ -290,9 +279,6 @@ nav ul li a {
 }
 
 #downbutton {
-
-  
-
 
 }
 
@@ -365,32 +351,6 @@ nav ul li a {
   width: 100px;
   height: 100px;
 }
-
-.volumeup {
-  width: 250px;
-  height: 250px;
-  background-color: black;
-  right:250px;
-  top:250px;
-  cursor: pointer;
-
-}
-
-.volumedown {
-  width: 250px;
-  height: 250px;
-  background-color: black;
-  right:250px;
-  top:250px;
-  cursor: pointer;
-
-}
-
-
-
-
-
-
 
 
 
