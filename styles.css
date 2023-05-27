@@ -1,3 +1,14 @@
+@font-face{
+  font-family: 'Montserrat';
+  src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face{
+  font-family: 'Oswald';
+  src: url(assets/fonts/Oswald-VariableFont_wght.ttf);
+}
+
+
 
 html {
   scroll-behavior: smooth;
@@ -36,13 +47,23 @@ h1 {
 }
 
 h3 {
-  font: 100px , sans-serif;
+  font-size: 100px;
+  font-family: 'Oswald';
+}
+
+p1 {
+  color:black;
+  font-size: 50px;
+  display: block;
+  line-height: 2;
+  
 }
 
 b1 {
     color:black;
     font-family:'';
     font-size: 30px;
+    text-indent: 10px;
 }
 
 b3 {
@@ -68,6 +89,8 @@ m1 {
 
 
 }
+
+
 
 #about{
   padding-top: 12px;
@@ -154,7 +177,7 @@ nav ul li a {
 }
 
 #aboutme {
-  height: 500px;
+  height: 375px;
   font-size: 100px;
   background-color: #D0E4F5;
   opacity: 90%;
@@ -164,7 +187,8 @@ nav ul li a {
   outline:auto;
   position:relative;
   margin:auto;
-  margin-top: 50px;
+  margin-top: -100px;
+  scroll-margin: 255px;
 }
 
 .sectionbox:hover {
@@ -230,6 +254,7 @@ nav ul li a {
   width: 1200px;
   top: 50px;
   margin: auto;
+  margin-top: -300px;
   scroll-behavior: smooth;
   scroll-margin-top: 60px;
   
@@ -263,6 +288,19 @@ nav ul li a {
   border-radius: 50px;
   outline: none;
 }
+
+#downbutton {
+
+  
+
+
+}
+
+#downbutton:hover {
+  opacity: 65%;
+
+}
+
 
 
 #pausebutton {
