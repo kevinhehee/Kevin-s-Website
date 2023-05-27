@@ -7,12 +7,15 @@
   <meta name="viewport" content="width=device-width">
 </head>
 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
 <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
 
 <style>
   body {
-    background-image: url("fuji.jpg");
+    background-image: url("assets/images/fuji.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -27,16 +30,6 @@
 </video> -->
 
 
-
-
-
-
-
-
-
-
-
-
 <br><br>
 
 
@@ -45,6 +38,8 @@
     <h1>Kevin He</h1>
     
 </div>
+
+
   
 <div
       style = "position: relative; text-align: center; margin: auto; top: -100px; left: -40px;">
@@ -83,13 +78,27 @@
 
 <br>
 
+<!-- <div style = "height: 500px;">
+
+</div> -->
+
+
+<div id = "downbutton" style = "text-align: center; margin-top: 500px; margin-bottom: 0px;">
+  <a href = "#aboutme">
+  <ion-icon href = "#aboutme" name="chevron-down-circle-outline" style = "top: 1000px; width: 50px; height: 50px; color: white"></ion-icon>
+  </a>
+</div>
+  
+
+
+
 
 
 
 
 <br><br><br><br><br><br><br><br><br><br><br>
 
-<b1 class = "textbox2">Hi, my name is Kevin He. </b1> 
+<!-- <b1 class = "textbox2">Hi, my name is Kevin He. </b1> 
 
 <br>
 
@@ -98,20 +107,25 @@
 
 <br> <br>
 
-<b1 class = "textbox2" > I created this website to learn HTML, CSS, and Javascript, and to explore more what I want to do in the computer science field.</b1>
+<b1 class = "textbox2" > I created this website to learn HTML, CSS, and Javascript, and to explore more what I want to do in the computer science field.</b1> -->
 
-<br><br><br><br>
 
+<div style = "position: relative; height: 300px; color: white; text-align: center; font-size: 200px;"></div>
 
 <!-- <div id = "bottompage"> -->
   <div class = "bottom">
-      <h3> About me</h3>
-      <h1 id = "aboutme">
+      <h3> ABOUT ME</h3>
+      <h1 id = "aboutme" style = "margin: auto; margin-top: 0px ";>
+
+        <p1 style = "font-size: 30px; font-family: Montserrat">Hi, my name is Kevin He. I am currently a Computer Science with Business Applications major at 
+          University of California, Riverside and am expected to graduate in June 2026.  
+          I created this website to learn HTML, CSS, and Javascript, and to explore more what I want to do in the computer science field.
+        </p1>
 
 
       </h1>
 
-      <h1 id = "projectslink"  style = "height: 1000px; font-size: 100px;"> Projects
+      <h1 id = "projectslink"  style = "height: 2000px; font-size: 100px;"> Projects
         <br>
         
         <div class = "projectbox">
@@ -122,21 +136,30 @@
             encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <br>
 
-            <iframe width = "800px" height = "625px" style = "height: 100%:"
+            <!-- <iframe width = "800px" height = "625px" style = "height: 100%:"
             src = "Alphaletter.html"
               >
-            </iframe>
+            </iframe> -->
 
             <p style = "font-size: 20px; top: -40px; position: relative;"> This is Alphaletter, a word-game inspired by "Tapple" and my first 
               video game I've created.  I developed this game using C and the raylib graphics library.  
+
+              <a href = Alphaletter.html> Click here to play </a>
             </p>
 
         </div>
 
-        <div class = "projectbox">
+        <!-- <div id = "contact" class = "projectbox">
+          Contact Me!
 
-          hello
-        </div>
+          <p>WIP</p>
+        </div> -->
+
+
+
+
+
+
       </h1>
   </div>
 <!-- </div> -->
@@ -153,8 +176,7 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#aboutme">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
