@@ -36,6 +36,19 @@ function MusicPlay()
   }
 }
 
+
+
+const COPY = document.querySelector("#email");
+
+
+COPY.addEventListener("click", () => {
+  navigator.clipboard.writeText("kevin.he6333@gmail.com");
+  alert("Copied!");
+
+})
+
+
+
 // function ProjectsJump()
 // {
 //     if ()
