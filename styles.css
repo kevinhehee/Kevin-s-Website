@@ -8,15 +8,21 @@
   src: url(assets/fonts/Oswald-VariableFont_wght.ttf);
 }
 
+.some-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
 
-html {
+@media (min-width: 768px) {
+  html {
   scroll-behavior: smooth;
   max-width: 100%;
   overflow-x: hidden;
 
 
-}
+  }
 
 
 .myButton {
@@ -359,6 +365,9 @@ nav ul li a {
   width: 100px;
   height: 100px;
 }
+}
+
+
 
 
 
