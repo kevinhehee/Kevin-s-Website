@@ -98,6 +98,12 @@ m1 {
   padding-bottom: 15px;
 }
 
+.EntireContainer {
+  width: 100%;
+  margin-top: -100px;
+
+}
+
 .WebContainer{
   min-height: 100vh;
   width: 100%;
@@ -108,9 +114,10 @@ m1 {
 
   justify-content: center; /* horizontally centers the content */
   align-items: center; /* vertically centers the content */
-  background-image: url("assets/images/fuji.jpg");
   background-size: cover;
 }
+
+
 
 .BottomAboutContainer {
   width: 100%;
@@ -123,7 +130,7 @@ m1 {
 .BottomProjectsContainer {
   width: 100%;
   min-height: 100vh;
-  background-color: #dadada;
+  background-color: #b3b3b3;
   
 
 }
@@ -132,8 +139,7 @@ m1 {
   width: 100%;
   min-height: 100%;
   background-color: rgb(25, 25, 25);
-  
-
+  margin-top: -69px;
 }
 
 .BottomEndContainer {
@@ -183,7 +189,7 @@ nav ul li a {
    line-height: 32px;
 	 text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #ffffff;
 }
 
 .sectionbox {
@@ -211,12 +217,15 @@ nav ul li a {
   width: 900px;
   position:relative;
   margin:auto;
-  scroll-margin: 70px;
+  scroll-margin: 87px;
 }
 
+#email:hover {
+  cursor: pointer;
+}
 
 .projectbox {
-  background-color: #dadada;
+  background-color: #b3b3b3;
   opacity: 90%;
   padding: 10px;
   border-top: 500px;
@@ -249,6 +258,7 @@ nav ul li a {
   width: 1000px;
   top: 50px;
   margin: auto;
+  margin-top: 250px;
 }
 
 .textbox2 {
@@ -278,9 +288,7 @@ nav ul li a {
   outline: none;
 }
 
-#downbutton {
 
-}
 
 #downbutton:hover {
   opacity: 65%;
