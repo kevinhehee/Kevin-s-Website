@@ -1,0 +1,40 @@
+
+.WebContainer
+{
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position:sticky;
+  justify-content: center; /* horizontally centers the content */
+  align-items: center; /* vertically centers the content */
+  background-size: cover;
+}
+
+.BottomAboutContainer 
+{
+  width: 100%;
+  min-height: 50%;
+  background-color: black;
+}  
+
+.BottomProjectsContainer 
+{
+  width: 100%;
+  min-height: 1350px;
+  background-color: #b3b3b3;
+}
+
+.BottomContactContainer 
+{
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(25, 25, 25);
+  margin-top: -67px;
+}
+
+.BottomEndContainer 
+{
+  width: 100%;
+  min-height: 100%;
+}
