@@ -138,13 +138,12 @@
 
   .projectbox 
   {
-    background-color: #b3b3b3;
     opacity: 90%;
     padding: 10px;
     border-top: 500px;
     border-width: 100px;
     width: 900px;
-    height: 830px;
+    height: 760px;
 
     padding-top: 30px;
 
@@ -161,13 +160,10 @@
 
   .projectbox2 
   {
-    background-color: #b3b3b3;
+    /* background-color: #b3b3b3; */
     opacity: 90%;
     width: 100%;
-    height: 700px;
-
-    padding-top: 30px;
-
+    height: 760px;
     position:sticky;
     margin: auto;
   }
@@ -180,7 +176,6 @@
 
   .projectbox3
   {
-    background: #b3b3b3;
     opacity: 90%;
     width: 100%;
     height: 1000px;
@@ -189,6 +184,14 @@
     
     position: sticky;
     margin: auto;
+  }
+
+  .LolStats
+  {
+    
+    aspect-ratio: 16 / 9;
+    width: 70vw;
+    height: 70vh;
   }
 }
 
