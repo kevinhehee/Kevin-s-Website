@@ -1,205 +1,245 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  
-  <link rel="stylesheet" href = "navbar.css">
-  <link rel="stylesheet" href = "containers.css">
-  <link rel="stylesheet" href = "styles.css">
-  <link rel="stylesheet" href = "smallstyles.css">
-  <link rel="stylesheet" href = "buttons.css">
-  <link rel="Javascript" href = "script.js">
-  <meta name="viewport" content="width=device-width">
-</head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin He</title>
 
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="icon" type="image/x-icon" href="icons/favicon.ico" />
 
+  <!-- Ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+  <!-- Single stylesheet (recommended) -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-<style>
-  body {
-    background-image: url("assets/images/fuji.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    margin: 0;
-    min-height: 100vh;
-  }
-</style>
+<body>
+  <!-- Background -->
+  <div class="bg" aria-hidden="true"></div>
 
+  <!-- Navbar -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="#top">Kevin He</a>
 
-<!-- <video autoplay muted loop id ="rainbackground">
-
-  <source src = "rainywindowUHD.mp4" type = "video/mp4" style = "z-index:0"/>
-
-</video> -->
-
-
-
-  <div class = "WebContainer">
-    <div class="title">
-        <h1>Kevin He</h1>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-        <div class = "linkscontainer">
+  </header>
 
-              <li><img src = "icons/spotify64.png" style = "width: 16px; height: 16px;">
-              <a href = "https://open.spotify.com/user/qweasd602" target="blank" rel="noopener noreferrer">Spotify</a></li>
+  <main id="top">
+    <!-- HERO -->
+    <section class="section hero">
+      <div class="card hero__card">
+        <h1 class="hero__title">Kevin He</h1>
+        <p class="hero__subtitle">
+          Backend Software Engineer • Kotlin-Java/Spring • Distributed Systems • Observability
+        </p>
 
-              <li><img src = "icons/linkedin64.png" style = "width: 16px; height: 16px;">
-              <a href = "https://www.linkedin.com/in/kevin-he-055804251/" target="blank" rel="noopener noreferrer">Linkedin</a></li>  
-
-              <li><img src = "icons/mylogo64.png" style = "width: 16px; height: 16px;">
-              <a href = "https://kevinhe.xyz" target="blank" rel="noopener noreferrer">Website</a></li>  
-
-              <li><img src = "icons/github64.png" style = "width: 16px; height: 16px;">
-              <a href = "https://github.com/kevinhehee" target="blank" rel="noopener noreferrer">Github</a></li>  
-
-              <!-- <li><img src = "icons/instagram64.png" style = "width: 16px; height: 16px;">
-              <a href = "https://www.instagram.com/kevinheehee/" target="blank" rel="noopener noreferrer">Instagram</a></li>  -->
-
-              <li><img src = "icons/suitcase.png" style = "width: 16px; height: 16px; position: middle;">
-              <a href = "https://drive.google.com/file/d/1P7s4ZNq8WEg25awLdPvaPjn2bOj-21h5/view" target="blank" rel="noopener noreferrer">Resume</a></li>
-
-        </div>   
-    <div id = "downbutton">
-      <a href = "#aboutme">
-        <ion-icon href = "#aboutme" name="chevron-down-circle-outline" style = "width: 50px; height: 50px; color: white"></ion-icon>
-      </a>
-    </div>
-  </div>
-  
-
-  <div class = "BottomAboutContainer">
-          <h3 style = "font-size: 100px; color: orange"> About</h3>
-
-          <br>
-
-          <h2 id = "aboutme" style = "scroll-margin: 135px; font-family: Montserrat;">
-
-          Hi. I'm an aspiring software engineer and problem solver eager to explore the field of software engineering
-          and computer science.  I'm currently interested in a software engineering internship and am currently
-          pursuing personal projects of my own.  Check them out below!
-    
-          </h2>
-
-          <div id = "downbutton">
-            <a href = "#projectslink">
-            <ion-icon href = "#projectslink" name="chevron-down-circle-outline" style = "top: 1000px; width: 50px; height: 50px; color: white"></ion-icon>
+        <ul class="links" aria-label="Social links">
+          <li>
+            <a class="link" href="https://open.spotify.com/user/qweasd602" target="_blank" rel="noopener noreferrer">
+              <img src="icons/spotify64.png" alt="" />
+              Spotify
             </a>
-          </div>
-    
-  </div>
+          </li>
+          <li>
+            <a class="link" href="https://www.linkedin.com/in/kevin-he-055804251/" target="_blank" rel="noopener noreferrer">
+              <img src="icons/linkedin64.png" alt="" />
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a class="link" href="https://kevinhe.xyz" target="_blank" rel="noopener noreferrer">
+              <img src="icons/mylogo64.png" alt="" />
+              Website
+            </a>
+          </li>
+          <li>
+            <a class="link" href="https://github.com/kevinhehee" target="_blank" rel="noopener noreferrer">
+              <img src="icons/github64.png" alt="" />
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a class="link" href="https://drive.google.com/file/d/1P7s4ZNq8WEg25awLdPvaPjn2bOj-21h5/view" target="_blank" rel="noopener noreferrer">
+              <img src="icons/suitcase.png" alt="" />
+              Resume
+            </a>
+          </li>
+        </ul>
 
+        <a class="down" href="#about" aria-label="Scroll to About">
+          <ion-icon name="chevron-down-circle-outline"></ion-icon>
+        </a>
+      </div>
+    </section>
 
-  <div class = "BottomProjectsContainer">
-          <h3 style = "color: rgb(45, 45, 45)"> PROJECTS</h3>
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <p class="section__text">
+          I’m Kevin He, a Computer Science student at UC Riverside graduating June 2026.
+          I build reliable backend systems focused on performance, observability, and scalability.
+          Most recently, I worked at Capital One improving a business-critical Spring Boot API by
+          reducing latency by 90% using Redis and strengthening production reliability.
+          Previously at Enlighten (HII), I implemented OpenTelemetry distributed tracing in Vert.x,
+          enabling engineers to diagnose issues in minutes instead of hours.
+          I’m currently seeking full-time backend software engineering opportunities.
+        </p>
 
-          <h1 id = "projectslink" style = "margin-top: -20px; font-size: 100px; color: rgb(238, 238, 238); scroll-margin: 155px;">
-
-              <div class = "projectbox" style = "text-align: center; font-size: 50px; color:rgb(45, 45, 45)">
-                Alphaletter
-                <br/>
-                  <iframe id = "youtubeiFrame" loading = "lazy" src="https://www.youtube.com/embed/5o80FqKJrZg" 
-                  title="YouTube video player" frameborder="0" allowfullscreen>
-                  </iframe>
-              
-                  <p style = "margin: auto; font-size: 20px; width: 90%; top: -25px; position: center; text-align: center; color: rgb(43, 43, 43)"> This is Alphaletter, a word-game inspired by "Tapple" and my first 
-                    video game I've created.  I developed this game using C and the raylib graphics library.  
-
-                    <br>
-                    <a href = "Projects/Alphaletter.html" style = "text-align: center;"> Click here to play </a>
-                  </p>
-              </div>
-              
-              
-              <div>
-                <h1 class = "projectbox2" id = "SortingVis" style = "text-align: center; font-size: 50px; color:rgb(45, 45, 45)">
-                  <br>Sorting Algorithm Visualizer</br>
-                    <iframe 
-                    id = "SortingiFrame" loading = "lazy"  src="Projects/SortingAlgVisualizer.html" 
-                    ></iframe>
-                    
-                    <p style = "margin: auto; width: 50%; font-size: 20px; position: center; rgb(43, 43, 43)">
-                      This is a project I developed to help visualize certain sorting algorithms using C++ and Raylib.
-                      Click and play around with the different sorting algorithms!
-                    </p>
-                </h1>
-              </div>
-
-              <div>
-                <h1 class = "projectbox3" id = "LoLStatsTracker" style = "text-align: center; font-size: 50px; color:rgb(45, 45, 45)">
-                  
-                  LoL Statistics Tracker
-                  <br/>
-                  
-                  <img class = "LolStats" id = "LolStatsTrackerImg" loading = "lazy" src = "./assets/images/LoLStatsTrackerZoomedOut.png"> </img>
-
-                  <p style = "margin: auto; width: 70vw; font-size: 20px; position: center; rgb(43, 43, 43)">
-                    This project is a League of Legends statistics tracker that uses React, Next.js, Axios, and Express, and allows users to view their League of Legends player statistics and match history.
-                    <br/><br/>
-                    To ensure a secure connection to the Riot API, I created a backend server with prevents users from accessing important secure information such as the Riot API key.
-                    <br/><br/>
-                    This project is not yet available for use and is currently in development.  I am focused on implementing other features such as multi-search user comparison and will work on design very soon.
-
-                  </p>
-
-                </h1>
-              </div>
-              
-            </div>
-          </h1>
-  </div>
-  
-
-  <div id = "contactme" class = "BottomContactContainer">
-
-    <h3 style = "color:rgb(213, 213, 213)">
-
-      Contact Me!
-      <br>
-
-    <p1 style = "color:rgb(195, 195, 195);">
-      <div>
-        <button 
-          
-          id = "email"><ion-icon style = "width: 45px; height: 45px;" name="mail-outline" ></ion-icon>
-        </button>
         
-      </a>
-    </p1>
+        <p class="section__text" style="margin-top:12px;">
+          <strong>Skills:</strong>
+          Java, Kotlin, Spring Boot, SQL, AWS, C++, Vert.x, Redis, OpenTelemetry,
+          Docker, CI/CD, Microservices, Distributed Systems
+        </p>
 
-    </h3>
-  </div>
+        <a class="down down--dark" href="#projects" aria-label="Scroll to Projects">
+          <ion-icon name="chevron-down-circle-outline"></ion-icon>
+        </a>
+      </div>
+    </section>
 
-  <div class = "BottomEndContainer" style= "background-color: #ffffff;" >
+        <section id="experience" class="section projects">
+      <div class="container">
+        <h2 class="section__title section__title--light">Experience</h2>
 
-    <h3 style = "color: black; font-size: 30px;">Made with 💖 by Kevin He</h3>
+        <div class="grid">
 
-  </div>
+          <!-- Capital One -->
+          <article class="proj proj--exp">
+            <div class="exp__header">
+              <h3 class="proj__title">Software Engineer Intern</h3>
+              <span class="exp__company">Capital One • Summer 2025</span>
+            </div>
 
+            <p class="proj__text">
+              <strong>Tech:</strong> Java, Spring Boot, Redis, AWS ElastiCache, k6, Splunk
+            </p>
 
+            <ul class="proj__bullets">
+              <li>Integrated Redis caching into a business-critical Spring Boot API, cutting latency by <strong>90%</strong> and improving reliability across 7 internal services.</li>
+              <li>Configured highly available AWS ElastiCache clusters with replication and multi-AZ failover.</li>
+              <li>Engineered 6 Spring components including fallback logic and conditional caching.</li>
+              <li>Built k6 load tests and Splunk dashboards to validate performance under heavy traffic.</li>
+              <li>Reduced redundant service calls, improving high-traffic endpoint times by up to <strong>40%</strong>.</li>
+            </ul>
+          </article>
 
-  <div id="navbar" style = "position: fixed">
-    <div>
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#aboutme">About</a></li>
-            <li><a href="#projectslink">Projects</a></li>
-            <li><a href="#contactme">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-  </div>
+          <!-- Enlighten -->
+          <article class="proj proj--exp">
+            <div class="exp__header">
+              <h3 class="proj__title">Software Engineer Intern</h3>
+              <span class="exp__company">Enlighten (HII) • Summer 2024</span>
+            </div>
 
+            <p class="proj__text">
+              <strong>Tech:</strong> Kotlin, Vert.x, OpenTelemetry, Jaeger, PostgreSQL, AssertJ
+            </p>
 
-<script src="script.js"></script>
+            <ul class="proj__bullets">
+              <li>Implemented OpenTelemetry distributed tracing in Vert.x, reducing debugging time from hours to minutes.</li>
+              <li>Built a Kotlin microservice simulating <strong>5,000+ concurrent users</strong> for stress testing.</li>
+              <li>Optimized PostgreSQL queries using trace analysis, achieving up to <strong>50% faster</strong> response times.</li>
+              <li>Developed unit tests with 96% coverage using AssertJ.</li>
+            </ul>
+          </article>
 
+        </div>
+      </div>
+    </section>
 
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section__title section__title--light">Projects</h2>
 
+        <div class="grid">
+          <!-- Project 1 -->
+          <article class="proj">
+            <h3 class="proj__title">Alphaletter</h3>
 
+            <div class="proj__media">
+              <iframe
+                title="Alphaletter demo"
+                loading="lazy"
+                src="https://www.youtube.com/embed/5o80FqKJrZg"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <p class="proj__text">
+              A word-game inspired by “Tapple” — my first game built using C and the raylib graphics library.
+            </p>
+
+            <div class="proj__actions">
+              <a class="btn" href="Projects/Alphaletter.html">Play</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="proj">
+            <h3 class="proj__title">Sorting Algorithm Visualizer</h3>
+
+            <div class="proj__media proj__media--scaled">
+              <iframe
+                src="Projects/SortingAlgVisualizer.html"
+                title="Sorting Algorithm Visualizer"
+                loading="lazy"
+              ></iframe>
+            </div>
+
+            <p class="proj__text">
+              Visualize common sorting algorithms. Built with C++ and raylib — click around and see how each algorithm behaves.
+            </p>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="proj">
+            <h3 class="proj__title">Riot API Stats Service (Case Study)</h3>
+            <p class="proj__text"><strong>Tech:</strong> Next.js, Express, Axios • API proxy • Rate limiting</p>
+            <ul class="proj__bullets">
+              <li>Built a backend proxy to securely access the Riot API without exposing secrets in the client.</li>
+              <li>Added validation + rate limiting middleware to prevent abuse and stabilize requests.</li>
+              <li>Designed endpoints for player lookup + match history aggregation (in progress).</li>
+            </ul>
+            <div class="proj__actions">
+              <a class="btn" href="https://github.com/kevinhehee/LoLStatisticsTracker" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section__title section__title--light">Contact</h2>
+
+        <button class="btn btn--icon" id="emailBtn" type="button">
+          <ion-icon name="mail-outline"></ion-icon>
+          Email me
+        </button>
+
+        <p class="muted">
+          Or DM me on LinkedIn.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Made with 💖 by Kevin He</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
-
